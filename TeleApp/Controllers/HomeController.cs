@@ -10,7 +10,7 @@ namespace TeleApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to JohnnyCares Platform";
+            ViewBag.Message = "Welcome to JohnnyCares Platform, also Plusonet";
 
             return View();
         }
