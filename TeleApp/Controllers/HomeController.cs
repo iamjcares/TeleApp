@@ -10,21 +10,21 @@ namespace TeleApp.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            ViewBag.Message = "Welcome to JohnnyCares Platform";
 
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Plusonet is an IT industry";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "You can  reach us on this email: email@email.com";
 
             return View();
         }
